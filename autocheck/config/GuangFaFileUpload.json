@@ -1,0 +1,129 @@
+{
+  "bank": "广发银行",
+  "Web_Url": "http://22.114.243.7/ngs/login?mode=41&q=st",
+  "Upload_url": "https://dmc.icbf.com.cn/apidev/data/DataList/Import?dataFileMetadataId={metadata_id}",
+  "ZuoXi": "83542f35-50a4-7d82-5c00-3a2097705ac1",
+  "AnJian": "e3cf6744-a922-2c0b-4c33-3a2097270c42",
+  "username": {
+    "locator": "//*[@id=\"username\"]",
+    "desc": "用户名输入框"
+  },
+  "usernamevalue": "10001606",
+  "passwordvalue": "Gf95508.",
+  "password": {
+    "locator": "//*[@id=\"password\"]",
+    "desc": "密码输入框"
+  },
+  "login_btn": {
+    "locator": "//button[contains(text(), '登录')]",
+    "desc": "登录按钮"
+  },
+  "second_login_tag": {
+    "locator": "//*[text()=\"当前账户已经被登录\"]",
+    "desc": "登录二次确认弹窗"
+  },
+  "second_login_btn": {
+    "locator": "//div[@class=\"btnbar confirm\"]/button[text()=\"确定\"]",
+    "desc": "登录第二次确认登录按钮"
+  },
+  "case_manage_lt": {
+    "locator": "//span[@class=\"title\" and text()=\"分案管理\"]",
+    "desc": "左侧一级导航栏，分案管理"
+  },
+  "case_flow_query_lt": {
+    "locator": "//a[@title=\"案件流转查询\"]",
+    "desc": "左侧二级导航栏，案件流转查询"
+  },
+  "case_flow_details_lt": {
+    "locator": "//a[@title=\"案件流转明细\"]",
+    "desc": "左侧三级导航栏，案件流转查询"
+  },
+  "flow_type_rt": {
+    "locator": "//input[@placeholder=\"请选择流转类型\"]",
+    "desc": "案件流转查询，查询条件，流转类型"
+  },
+  "flow_type_value_rt": {
+    "locator": "//div[@class=\"wiscombox_data_container\"]/ul[@class=\"wiscombox_data_list\"]/li",
+    "desc": "案件流转查询，查询条件，流转类型，筛选项列表"
+  },
+  "flow_date_rt": {
+    "locator": "//div[@data-path=\"DZ8J7I.c51\"]",
+    "desc": "案件流转查询，查询条件，流转时间"
+  },
+  "flow_date_value_rt": {
+    "locator": "//div[@class=\"date-item dater1\"]//div[@class=\"dater\"]/span[@data-date=\"{target_date}\"]",
+    "desc": "案件流转查询，查询条件，流转时间值"
+  },
+  "flow_query_btn": {
+    "locator": "//button[@data-path=\"DZ8J7I.c33\"]",
+    "desc": "案件流转查询，查询按钮"
+  },
+  "flow_export_btn": {
+    "locator": "//button[@data-path=\"DZ8J7I.c36\"]",
+    "desc": "案件流转查询，导出按钮"
+  },
+  "async_task_tab": {
+    "locator": "//span[@class=\"title\" and text()=\"异步任务\"]",
+    "desc": "案件流转查询，异步任务tab"
+  },
+  "async_task_table": {
+    "locator": "//div[@id=\"plugin_asyncJobs_main\"]//tbody/tr",
+    "desc": "案件流转查询，异步任务，信息表格"
+  },
+  "news_top": {
+    "locator": "//*[@id=\"jobContainer\"]//a[@data-title=\"消息提醒\"]",
+    "desc": "顶部导航栏，消息"
+  },
+  "news_view_more": {
+    "locator": "//*[@id=\"dynWindow\"]//a[@data-path=\"D8N6UY.c135\"]",
+    "desc": "顶部导航栏，消息，查看更多"
+  },
+  "history_news_query_bt": {
+    "locator": "//div[@data-path=\"DUMJGL.c2\"]/button[@data-path=\"DUMJGL.c41\"]",
+    "desc": "历史消息查询tab--查询button"
+  },
+  "history_news_query_tab_span": {
+    "locator": "//span[@class='title' and text()='历史消息查询']",
+    "desc": "历史消息查询tab--名称"
+  },
+  "history_news_query_tab_a": {
+    "locator": "//span[@class='title' and text()='历史消息查询']/parent::a",
+    "desc": "历史消息查询tab--父标签a"
+  },
+  "history_news_query_tab_li": {
+    "locator": "//span[@class='title' and text()='历史消息查询']/ancestor::li",
+    "desc": "历史消息查询tab--祖先标签li"
+  },
+  "case_excel_password": {
+    "locator": "//div[@data-dyn=\"DUMJGL\"]//div[@data-path=\"DUMJGL.c12\"]//table[@class=\"unselectable wisgrid-btable\"]/tbody/tr",
+    "desc": "历史消息查询table"
+  },
+  "monitor_manage_lt": {
+    "locator": "//span[text()=\"监控管理\"]",
+    "desc": "左侧一级导航栏，监控管理"
+  },
+  "mm_report_lt": {
+    "locator": "//a[@title=\"报表\"]",
+    "desc": "左侧二级导航栏，报表"
+  },
+  "out_call_report_lt": {
+    "locator": "//div/span[@title=\"外呼报表\"]",
+    "desc": "左侧三级导航栏，外呼报表"
+  },
+  "seat_report_lt": {
+    "locator": "//span[@title=\"自取坐席维度监测表\"]",
+    "desc": "左侧四级导航栏，自取坐席维度检测表"
+  },
+  "seat_report_start_date": {
+    "locator": "//input[@id=\"rf_DATE_S\"]",
+    "desc": "自取坐席维度检测表，统计开始日期"
+  },
+  "seat_report_end_date": {
+    "locator": "//input[@id=\"rf_DATE_D\"]",
+    "desc": "自取坐席维度检测表，统计结束日期"
+  },
+  "sr_run_btn": {
+    "locator": "//*[@id=\"fieldform\"]//button[@class=\"js_run green\"]",
+    "desc": "自取坐席维度检测报表，运行button"
+  }
+}

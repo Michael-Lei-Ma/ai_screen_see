@@ -1,0 +1,57 @@
+{
+  "bank": "广发银行",
+  "Web_Url": "http://22.114.243.7/ngs/login?mode=41&q=st",
+  "Upload_url": "https://dmc.icbf.com.cn/apidev/data/DataList/Import?dataFileMetadataId={metadata_id}",
+  "ZuoXi": "83542f35-50a4-7d82-5c00-3a2097705ac1",
+  "AnJian": "e3cf6744-a922-2c0b-4c33-3a2097270c42",
+  "username": {
+    "locator": "//*[@id=\"username\"]",
+    "desc": "用户名输入框"
+  },
+  "usernamevalue": "10001606",
+  "passwordvalue": "Gf95508.",
+  "password": {
+    "locator": "//*[@id=\"password\"]",
+    "desc": "密码输入框"
+  },
+  "login_btn": {
+    "locator": "//button[contains(text(), '登录')]",
+    "desc": "登录按钮"
+  },
+  "second_login_tag": {
+    "locator": "//*[text()=\"当前账户已经被登录\"]",
+    "desc": "登录二次确认弹窗"
+  },
+  "second_login_btn": {
+    "locator": "//div[@class=\"btnbar confirm\"]/button[text()=\"确定\"]",
+    "desc": "登录第二次确认登录按钮"
+  },
+  "case_handle_lt": {
+    "locator": "//span[@class=\"title\" and text()=\"案件处理\"]",
+    "desc": "左侧一级导航栏，案件处理"
+  },
+  "case_query_lt": {
+    "locator": "//a[@title=\"案件查询\"]",
+    "desc": "左侧二级导航栏，案件查询"
+  },
+  "teams_rt": {
+    "locator": "//div[@data-path=\"D0LA73.c681\"]//span[text()=\"团队：\"]/ancestor::div[@class=\"ve_form ve_inner\"]//input",
+    "desc": "案件查询，查询条件，团队"
+  },
+  "teams_value_rt": {
+    "locator": "//div[@id=\"rolegroupSelectorDialog\"]//label[text()=\"全选\"]/input",
+    "desc": "案件查询，查询条件，团队，筛选项列表"
+  },
+  "teams_value_confirm_rt": {
+    "locator": "//*[@id=\"rolegroupSelectorDialog\"]//button[text()='确认']",
+    "desc": "案件查询，查询条件，团队，筛选项列表，确认button"
+  },
+  "cardholder_id_number_rt": {
+    "locator": "//div[@data-path=\"D0LA73.c681\"]//span[contains(text(),'持卡人代号')]/ancestor::div[@class=\"ve_form\"]//input",
+    "desc": "案件查询，查询条件，持卡人代号"
+  },
+  "case_query_btn_rt": {
+    "locator": "//div[@data-path=\"D0LA73.c681\"]//button[@data-path=\"D0LA73.c1143\"]",
+    "desc": "案件查询，查询按钮"
+  }
+}

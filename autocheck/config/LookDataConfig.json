@@ -1,0 +1,73 @@
+{
+  "bank": "浦发银行",
+  "usernamevalue": "CBC240329",
+  "passwordvalue": "Cbc654321",
+  "Web-Url": "https://uocpxc.spdbccc.com.cn/#/login",
+  "username": {
+     "locator": "//*[@id=\"app\"]//input",
+     "desc": "用户名登录框"
+  },
+  "password":{
+    "locator": "//*[@id=\"app\"]//input",
+    "desc": "密码登录的输入框"
+  },
+  "login-btn": {
+     "locator": "//*[text()='登 录']",
+     "desc": "首页上的登录按钮"
+  },
+  "left-btn": {
+    "locator": "//*[text()='统计报表']/..",
+    "desc": "统计报表"
+  },
+  "ts-btn": {
+    "locator": "//*[text()='通时通量']",
+    "desc": "通时通量"
+  },
+  "time-input": {
+    "locator": "//*[text()='颗粒度']/../div/div",
+    "desc": "颗粒度"
+  },
+  "time-input-select": {
+    "locator": "//*[text()='日期']",
+    "desc": "日期"
+  },
+  "begin-time": {
+    "locator": "//input[@placeholder='开始日期']",
+    "desc": "开始时间"
+  },
+  "end-time": {
+    "locator": "//input[@placeholder='结束日期']",
+    "desc": "结束时间"
+  },
+  "cui-shou": {
+    "locator": "//span[text()='催收员']/..//input",
+    "desc": "催收员选择框"
+  },
+  "search-btn": {
+    "locator": "//*[contains(text(),'查询')]",
+    "desc": "查询"
+  },
+  "page-count": {
+    "locator": "//*[@id=\"pane-flux\"]/div/div/div[3]/div/div/div[2]/div/div/span[2]/div/div[1]/input",
+    "desc": "每页个数"
+  },
+  "100": {
+    "locator": "//*[text()='100条/页']",
+    "desc": "100条"
+  },
+  "last-page": {
+    "locator": "//*[@class='el-pager']//li",
+    "desc": "页码"
+  },
+  "next-btn": {
+    "locator": "//*[@class='el-icon el-icon-arrow-right']",
+    "desc": "下一页"
+  }
+
+
+
+
+
+
+
+}

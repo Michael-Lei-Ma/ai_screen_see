@@ -1,0 +1,13 @@
+*.exe
+*.spec
+*.js
+*/images
+*/logs
+*/*.png
+*/__pycache__
+*/.idea/
+*/.vscode/
+*/images
+*/unzip
+*/compress
+.idea/

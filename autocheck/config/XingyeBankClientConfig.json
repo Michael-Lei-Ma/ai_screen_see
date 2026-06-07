@@ -1,0 +1,71 @@
+{
+  "bank": "兴业银行",
+  "usernamevalue": "0CBC05",
+  "passwordvalue": "Cbc123456...",
+  "Web-Url": "https://177.20.10.65/ncap/login",
+  "username": {
+     "locator": "//*[@id=\"app\"]//input[@id=\"form_item_accountName\"]",
+     "desc": "用户名登录框"
+  },
+  "password":{
+    "locator": "//*[@id=\"app\"]//input[@id=\"form_item_password\"]",
+    "desc": "密码登录的输入框"
+  },"captcha-code-image": {
+    "locator": "//*[@id=\"app\"]//div[@class=\"ant-col ant-col-10\"]/img",
+    "desc": "获取验证值"
+  },"captcha-code": {
+    "locator": "//*[@id=\"app\"]//input[@id=\"form_item_captcha\"]",
+    "desc": "验证码输入框"
+  }, "login-btn": {
+       "locator": "//*[@class=\"ant-btn ant-btn-primary ant-btn-block busttonStyle\"]",
+       "desc": "首页面的登录按钮"
+  },"login-error-tips": {
+      "locator": "//*[text()='用户名、密码或验证码错误']",
+      "desc": "登录页面提示信息'用户名、密码或验证码错误'"
+},"home-page-tag": {
+    "locator": "//*[@id=\"vcDialogTitle0\" and contains(text(), '提示')]",
+    "desc": "登录后首页面，成功判断标志"
+},"home-page-tips": {
+    "locator": "//*[@class=\"ant-modal-close\"]",
+    "desc": "登录后首页面，提示弹窗，点击X关闭"
+  }, "personal-center-btn-lt": {
+      "locator": "//*[text()='个人中心']",
+      "desc": "个人中心"
+    }, "account-management-btn-lt": {
+      "locator": "//*[@class= \"ant-menu-title-content\"and text()='账号管理']",
+      "desc": "个人中心-账号管理"
+    },"acct-manat-query-conditions-value-rt": {
+      "locator": "//*[@id=\"rc_select_5\"]",
+      "desc": "个人中心-账号管理-查询条件,用户状态:'启用'"
+  },"acct-manat-query-conditions-query-rt": {
+      "locator": "//*[@id=\"waterCanves\"]/div[2]/div/button[1]",
+      "desc": "个人中心-账号管理-查询条件，查询button"
+  },"acct-manat-query-form-head-rt": {
+      "locator": "//*[@id=\"waterCanves\"]/div[3]//span[3]",
+      "desc": "人中心-账号管理-查询结果，表头，CBC 文本框"
+  },"acct-manat-query-form-totalNumber": {
+      "locator": "//*[@id=\"waterCanves\"]/div[4]//li[1]",
+      "desc": "人中心-账号管理-查询结果，总条数"
+  },"acct-manat-query-page-break-rt": {
+      "locator": "//*[@id=\"rc_select_6\"]",
+      "desc": "人中心-账号管理-查询结果，表头，CBC，获取到分页列表input框 '100 条/页'"
+  },"acct-manat-query-page-break-check-rt":{
+      "locator": "//*[@title=\"下一页\"]/button[@class=\"ant-pagination-item-link\"]",
+      "desc": "人中心-账号管理-查询结果，表头，CBC，分页查询最大值,然后点击下一页，浏览查看每页"
+  },"general-search-btn-lf": {
+      "locator": "//*[text()='通用查询']",
+      "desc": "通用查询"
+  },"timed-number-report-form-btn-lt": {
+      "locator": "//*[text()='通时通次报表']",
+      "desc": "通用查询-通时通次报表"
+  },"current-time-number-tab-rt": {
+      "locator": "//*[text()='当日通时通次']",
+      "desc": "通用查询-通时通次报表-当日通时通次tab"
+  },"current-time-number-tab-query-btn-rt": {
+      "locator": "//*[@class=\"ant-btn ant-btn-primary\"]",
+      "desc": "通用查询-通时通次报表-当日通时通次tab，单击'查询'button"
+  },"current-time-number-tab-break-check-default-number-check-btn-rt":{
+      "locator": "//*[@id=\"rc_select_12\"]",
+      "desc": "通用查询-通时通次报表-当日通时通次tab，查询结果列表，获取到分页列表input框 '2000 条/页'"
+  }
+}

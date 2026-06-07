@@ -1,0 +1,75 @@
+{
+  "bank": "浦发银行",
+  "username_value": "CBC240329",
+  "password_value": "Cbc654321",
+  "Web_Url": "https://uocpxc.spdbccc.com.cn/#/login",
+  "username": {
+     "locator": "//*[@id=\"app\"]//div[@class=\"el-input\"]/input",
+     "desc": "用户名登录框"
+  },
+  "password":{
+    "locator": "//*[@id=\"app\"]//div[@class=\"el-input passwordInput\"]/input",
+    "desc": "密码登录的输入框"
+  },
+  "login_btn": {
+     "locator": "//*[text()='登 录']",
+     "desc": "首页上的登录按钮"
+  },
+   "login_success_tag": {
+     "locator": "//*[@id=\"app\"]//span[text()=\"当前状态\"]",
+     "desc": "登录成功进入首页面标签"
+  },
+  "case_track_lt": {
+    "locator": "//*[text()='案件跟踪']",
+    "desc": "案件跟踪"
+  },
+  "tab_reduce_statement": {
+    "locator": "//*[@id='tab-reduceStatement']",
+    "desc": "减免流水 tab"
+  },
+  "red_stat_apply_date": {
+    "locator": "//*[@id=\"pane-reduceStatement\"]//div[@class=\"el-date-editor el-range-editor el-input__inner el-date-editor--daterange\"]",
+    "desc": "筛选条件-申请日期"
+  },
+  "red_stat_begin_time": {
+    "locator": "//*[@id=\"pane-reduceStatement\"]//input[@placeholder='开始日期']",
+    "desc": "申请日期-开始时间"
+  },
+  "red_stat_end_time": {
+    "locator": "//*[@id=\"pane-reduceStatement\"]//input[@placeholder='结束日期']",
+    "desc": "结申请日期-结束时间"
+  },
+  "red_stat_approve_status": {
+    "locator": "//*[@id=\"pane-reduceStatement\"]//div[4]//div[@class=\"el-input el-input--suffix\"]",
+    "desc": "处理状态 条件选择下拉框"
+  },
+  "red_stat_search_btn": {
+    "locator": "//*[@id=\"pane-reduceStatement\"]//button[@class=\"el-button el-button--primary\"]",
+    "desc": "查询button"
+  },
+    "red_stat_result_total_number": {
+    "locator": "//*[@id=\"pane-reduceStatement\"]//span[@class=\"el-pagination__total\"]",
+    "desc": "查询结果总条数"
+  },
+  "red_stat_result_page_count": {
+    "locator": "//*[@id=\"pane-reduceStatement\"]//span/div/div[@class=\"el-input el-input--mini el-input--suffix\"]",
+    "desc": "每页个数"
+  },
+  "red_stat_result_table": {
+    "locator": "//*[@id=\"pane-reduceStatement\"]//tbody/tr",
+    "desc": "查询结果列表滚动区域table"
+  },
+  "red_stat_result_table_row_detail": {
+    "locator": "//*[text()='详情']",
+    "desc": "查询结果列表，每一行可见的'详情'按钮"
+  },
+  "red_stat_result_table_row_detail_close": {
+    "locator": "//*[text()='关闭']",
+    "desc": "查询结果列表，每一行可见的'详情'，详情页面'关闭'按钮"
+  },
+  "red_stat_result_last_page": {
+    "locator": "//*[@id=\"pane-reduceStatement\"]//button[@class=\"btn-next\"]",
+    "desc": "查询结果列表，下一页"
+  }
+
+}

@@ -1,0 +1,92 @@
+{
+  "bank": "招商银行",
+  "Web-Url": "https://intcc-new.paas.cmbchina.com",
+  "Upload-url": "https://dmc.icbf.com.cn/apidev/data/DataList/Import?dataFileMetadataId={metadata_id}",
+  "ZS-JingBan": "446270cc-42be-9ac6-1129-3a1da317dc81",
+  "ZS-HuiJian": "2525523b-b0ba-d4d2-85c2-3a1d6e4998bc",
+  "alert-url": "http://10.255.100.202:8000/alert",
+  "username": {
+    "locator": "//*[@id=\"userName\"]",
+    "desc": "用户名输入框"
+  },
+  "usernamevalue": "BCBC1924",
+  "passwordvalue": "Cbcbj160@",
+  "password": {
+    "locator": "//*[@id=\"password\"]",
+    "desc": "密码输入框"
+  },
+  "login-btn": {
+    "locator": "//*[text()='登 录']",
+    "desc": "登录按钮"
+  },
+  "left-cui-btn": {
+    "locator": "//*[text()='招行外包催收作业系统']",
+    "desc": "左侧菜单上的招行外包催收作业系统"
+  },
+  "left-workmng-btn": {
+    "locator": "//*[text()='作业过程管理区']",
+    "desc": "左侧菜单上的招行作业过程管理区"
+  },
+  "i-know": {
+    "locator": "//*[text()='知道了']",
+    "desc": "点击我知道了"
+  },
+  "left-data-btn": {
+    "locator": "//*[text()='作业过程数据']",
+    "desc": "左侧菜单上的招行作业过程数据"
+  },
+  "left-call-btn": {
+    "locator": "//*[text()='经办外呼过程数据']",
+    "desc": "左侧菜单上的招行经办外呼过程数据"
+  },
+  "iframe-2": "#CALLDATA",
+  "table": {
+    "locator": "//*[contains(@id,'container-preview')]",
+    "desc": "表格"
+  },
+  "down-icon": {
+    "locator": "//*[@class='svg-icon']",
+    "desc": "下载图标"
+  },
+  "excel": {
+    "locator": "//*[text()='Excel']",
+    "desc": "Excel按钮"
+  },
+  "data-center": {
+    "locator": "//*[@class=\"ed-icon bar-base-icon ed-tooltip__trigger ed-tooltip__trigger\"]",
+    "desc": "数据中心"
+  },
+   "td": {
+    "locator": "//table[@class='ed-table__body']/tbody/tr[1]/td[7]/div/button[1]/i/i",
+    "desc": "经办下载按钮-"
+  },
+  "manage-btn": {
+    "locator": "//*[@id='MANAGE01_AUTO']",
+    "desc": "左侧菜单上的管理区"
+  },
+  "hui-jian": {
+    "locator": "//*[text()='慧见-贷后数字化运营']",
+    "desc": "左侧菜单上的-慧见-贷后数字化运营"
+  },
+  "iframe-1": "#GEDATAWB",
+  "begin-time": {
+    "locator": "//*[@placeholder='开始日期']",
+    "desc": "开始日期"
+  },
+  "end-time": {
+    "locator": "//*[@placeholder='结束日期']",
+    "desc": "结束日期"
+  },
+  "search-btn": {
+    "locator": "//*[@class=\"el-form-item__content\"]//span[text()='查询']",
+    "desc": "查询按钮"
+  },
+  "d-button": {
+    "locator": "//*[text()=' 下载 ']",
+    "desc": "慧见下载按钮"
+  },
+  "d-button-jingban": {
+    "locator": "//*[contains(text(),'下载经办数据')]",
+    "desc": "下载经办数据按钮"
+  }
+}
