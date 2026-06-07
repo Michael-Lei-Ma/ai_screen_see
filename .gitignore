@@ -4,6 +4,7 @@
 */images
 */logs
 */*.png
+*/png/*.png
 */__pycache__
 */.idea/
 */.vscode/
@@ -11,3 +12,4 @@
 */unzip
 */compress
 .idea/
+*/*/*.log
